@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Quill markdown editorß</title>
+</head>
+<body>
+	<main>
+		<div id="toolbar">
+			<!-- Add font size dropdown -->
+			<select class="ql-size">
+				<option value="normal" selected>paragraph</option>
+				<option value="small">small</option>
+				<option value="large">medium</option>
+				<option value="huge">large</option>
+			</select>
+			<!-- Add a bold button -->
+			<button class="ql-bold"></button>
+			<button class="ql-italic"></button>
+			<button class="ql-link"></button>
+			<button class="ql-underline"></button>
+		</div>
+		<div id="editor"></div>
+		<button id="saveBtn">save</button>
+		<script src="./index.ts"></script>
+	</main>
+</body>
+</html>
